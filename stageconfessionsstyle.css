@@ -1,0 +1,68 @@
+html,
+body {
+    margin: 0;
+}body {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    margin: 0;
+    font-size: 16px;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-style:normal;
+    font-weight:400;
+    font-size:46px;
+}
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25em;
+}
+#backgroundintrofeed {
+    background-image: url("https://images.unsplash.com/photo-1474692295473-66ba4d54e0d3?dpr=1&auto=compress,format&fit=crop&w=1576&h=&q=80&cs=tinysrgb&crop=");
+    background-attachment: fixed;
+    background-position:center center;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#logo {
+    font-size:60px;
+    border-style: solid;
+    border-width: 5px;  
+    border-color: black;
+    width: 500px;
+    text-align: center;
+}
+#about-page {
+    text-align: center;
+    line-height: 1.6em;
+    padding: 2em 2em 4em;
+    background: #FFF;
+}
+#DIVaboutparagraphs {
+    margin-left: 17em;
+    margin-right: 17em;
+}
+#DIVaboutstaffprofiles {
+    margin-left: 17em;
+    margin-right: 17em;
+}
+.aboutparagraph {
+    text-align: left;
+    font-family: 'Arimo', sans-serif;
+    font-size:18px;
+}
+.aboutprofilestitle {
+    text-align: left;
+    font-family: 'Arimo', sans-serif;
+}
+#aboutintro {
+    font-family: 'Arimo', sans-serif;
+    font-size:18px;
+}
